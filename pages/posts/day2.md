@@ -48,13 +48,6 @@ The animated representation of the packaging design captures the dynamic and inn
 
 The static image showcases the detail and thought put into the physical texture and design elements of the packaging.
 
-## Conclusion
-
-This design stands as a statement of the brand's innovative approach, combining state-of-the-art technology with a commitment to sustainability.
-
-## Contact
-
-For more information on this project, please contact [Your Email](mailto:youremail@example.com).
 
 ### Footnotes
 
