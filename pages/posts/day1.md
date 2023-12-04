@@ -1,66 +1,74 @@
 ---
-title: Advent of Desing - Day 1, cool condoms
-date: 2023/12/4
-description: Showcasing the minimalist and modern approach to condom packaging design.
-tag: product design
-author: You
+title: Advent of Design - Day 1: Innovative SAD Light Therapy Visor
+date: 2021-12-01
+description: A deep dive into the design and functionality of a cutting-edge light therapy visor to counteract Seasonal Affective Disorder.
+tag: design, health, technology
+author: Your Name
 ---
 
-# Minimalist Condom Packaging Design
+# Seasonal Affective Disorder: Understanding the Impact
 
-## Project Overview
+Seasonal Affective Disorder (SAD) represents a recurrent depressive episode that typically manifests during the lower-light conditions of winter. Characterized within the DSM-5 as a major depressive disorder with a seasonal pattern, the diminished exposure to sunlight is a well-established trigger (DSM-5; APA).
 
-### The Challenge
+---
 
-To create a packaging design that encapsulates modernity, functionality, and environmental consciousness.
+### Light Therapy: A Standard Treatment for SAD
 
-### The Solution
+Light therapy, a first-line treatment for SAD, leverages artificial light to replicate the benefits of natural sunlight. This intervention prompts a chemical change in the brain, notably affecting neurotransmitters such as melatonin and serotonin, which are instrumental in mood regulation and sleep patterns (Rosenthal, 2023).
 
-A minimalist condom wrapper that combines a sleek design with a clear indication of the high-tech nature of the product, using an abstract symbol.
+**Importance of Light**
 
-## Design Process
+Research underscores the importance of light intensity and spectrum in light therapy. Standard treatment recommends a 10,000 lux light box used for 20-30 minutes each morning, a level of illumination that compensates for the deficit of natural light in winter (Rosenthal, 2023; Verywell Health).
 
-### Concept Development
+### Navigating Through Limitations of Current Technologies
 
-The aim was to combine a minimalist aesthetic with an allusion to the cutting-edge technology used in the product. The chosen design is both abstract and indicative of the product’s advanced features.
+While existing light therapy devices have set a precedent in treating SAD, their design often restricts user mobility and fails to fully mimic the natural experience of sunlight.
 
-### Execution
+### The Science of Light Positioning
 
-#### Material Selection
+Emerging research highlights the importance of light positioning in light therapy's effectiveness for SAD. The SAD Visor's design principle is to provide optimal light exposure in a wearable format conducive to the user's lifestyle (Rosenthal, 2023).
 
-Selected biodegradable materials underscore the brand's eco-friendly commitment.
+---
 
-#### Typography & Color Scheme
+## Innovative Design: The Visor-Integrated Light Therapy Solution
 
-A monochromatic color scheme was chosen to emphasize the product's sleek and sophisticated design.
+The concept of integrating a light therapy lamp into a visor offers an innovative solution that caters to the naturalistic approach required for effective SAD treatment. 
 
-## Final Product
+![SAD Visor Design](/public/day2/iterations.png)
 
-### Day 1 Release
+---
 
-![Sleek Condom Packaging GIF](../../public/dayone/rubberjohnny.gif "Rubber Johnny Packaging Animation")
+## Design and Technical Considerations
 
-The animated representation of the packaging design captures the dynamic and innovative spirit of the product.
+The SAD Visor is envisioned as a wearable innovation that marries functionality with everyday practicality.
 
-### Static Design
+**Materials**
+- Durability and Comfort: A combination of durable materials such as polycarbonate.
+- Biocompatibility: Contact materials are chosen for their hypoallergenic properties.
 
-![Sleek Condom Packaging](../../public/dayone/design_1.png "Condom Packaging Design Static")
+**Light Sources**
+- LED Technology: Blue/green spectrum LEDs are selected for their effectiveness.
 
-The static image showcases the detail and thought put into the physical texture and design elements of the packaging.
+**Power Sources**
+- Rechargeable Batteries: Lithium-ion batteries are chosen for their energy density.
 
-## Conclusion
+**Ergonomics**
+- Weight and Control: The visor's design ensures even weight distribution.
+- Aesthetics: The design is both contemporary and discreet.
 
-This design stands as a statement of the brand's innovative approach, combining state-of-the-art technology with a commitment to sustainability.
+## Technical Feasibility
 
-## Contact
+The device will deliver light intensity within the therapeutic range, ensuring uniform distribution.
 
-For more information on this project, please contact [Your Email](mailto:youremail@example.com).
+## Market Viability and Competitive Positioning
 
-### Footnotes
+The SAD Visor's modern design and functionality set it apart from dated market alternatives.
 
-- Insights on the design inspiration [^1].
-- Explore more of my design work [^2].
+---
 
-[^1]: This design is inspired by contemporary minimalism and the seamless integration of technology with consumer products.
+## Connect and Follow the Advent of Design Journey
 
-[^2]: For a comprehensive view of my design portfolio, feel free to reach out.
+- [Twitter](https://twitter.com/amitoser)
+- [GitHub](https://github.com/lukketsvane)
+- [Instagram](https://www.instagram.com/smeltevatn/)
+- [LinkedIn](https://www.linkedin.com/in/iverfinne/)
