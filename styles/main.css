@@ -107,3 +107,47 @@ img.next-image {
 .post-card .buy-button:hover {
   background-color: #0056b3; /* Darker shade for hover state */
 }
+
+.leave-message-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.leave-message-container h2 {
+  color: #333;
+  text-align: center;
+}
+
+.leave-message-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.leave-message-form label {
+  font-weight: bold;
+}
+
+.leave-message-form input,
+.leave-message-form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.leave-message-form button {
+  padding: 0.6rem 1.2rem;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.leave-message-form button:hover {
+  background-color: #003d82;
+}

@@ -1,10 +1,19 @@
-import 'nextra-theme-blog/style.css'
-import Head from 'next/head'
+import React from 'react';
+import { MDXProvider } from '@mdx-js/react';
+import AdventLayout from './../components/AdventLayout';
+import LeaveAMessage from './../components/LeaveAMessage'; // Import LeaveAMessage component
+import 'nextra-theme-blog/style.css';
+import Head from 'next/head';
+import '../styles/main.css';
+import '../styles/LeaveAMessageForm.css';
 
-import '../styles/main.css'
 
-export default function Nextra({ Component, pageProps }) {
-  return (
+const mdxComponents = {
+  AdventLayout,
+};
+
+export default function MyApp({ Component, pageProps }) {
+  return <Component {...pageProps} />; (
     <>
       <Head>
         <link
@@ -21,7 +30,9 @@ export default function Nextra({ Component, pageProps }) {
           crossOrigin="anonymous"
         />
       </Head>
-      <Component {...pageProps} />
+      <MDXProvider components={mdxComponents}>
+        <Component {...pageProps} />
+      </MDXProvider>
     </>
-  )
+  );
 }
