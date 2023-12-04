@@ -1,7 +1,7 @@
 ---
 title: Advent of Desing - Day 2, SAD visor
 date: 2023/12/1
-description: Showcasing the minimalist and modern approach to condom packaging design.
+description: .
 tag: product design
 author: You
 ---
