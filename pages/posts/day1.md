@@ -1,5 +1,5 @@
 ---
-title: Advent of Desing - Day 2, SAD visor
+title: Advent of Desing - Day 1, SAD visor
 date: 2023/12/1
 description: .
 tag: product design
