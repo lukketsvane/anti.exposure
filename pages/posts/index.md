@@ -1,6 +1,6 @@
 ---
 type: posts
-title: Posts
+title: posts
 date: 2023-12-04
 ---
 

@@ -54,7 +54,11 @@ const LeaveAMessage = () => {
         <form onSubmit={handleSubmit}>
           <div>
             <label htmlFor="from">From:</label>
-            <input
+
+          </div>
+          <div>
+          
+          <input
               type="text"
               id="from"
               name="from"
@@ -64,8 +68,13 @@ const LeaveAMessage = () => {
             />
           </div>
           <div>
+            <p> </p>
+          </div>
+          <div>
             <label htmlFor="suggestion">Suggestion for Design:</label>
-            <textarea
+          </div>
+          <div>
+          <textarea
               id="suggestion"
               name="suggestion"
               value={formData.suggestion}
