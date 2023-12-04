@@ -25,23 +25,21 @@ body {
   font-variant: common-ligatures contextual;
   letter-spacing: -0.02em;
 }
-b,
-strong,
-h3,
-h4,
-h5,
-h6 {
+
+b, strong, h3, h4, h5, h6 {
   font-variation-settings: 'wght' 650;
 }
+
 h1 {
   font-variation-settings: 'wght' 850;
 }
+
 h2 {
   font-variation-settings: 'wght' 750;
 }
 
 @media screen and (min-device-pixel-ratio: 1.5),
-  screen and (min-resolution: 1.5dppx) {
+screen and (min-resolution: 1.5dppx) {
   body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -62,4 +60,50 @@ img.next-image {
 
 .nav-line .nav-link {
   color: #69778c;
+}
+
+/* PostCard styles */
+
+.post-card {
+  background-color: #1A1A1A; /* This color is a placeholder for dark background */
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.post-card:hover {
+  transform: scale(1.05);
+}
+
+.post-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.post-card h3 {
+  font-size: 1.25rem; /* 20px */
+  font-weight: bold;
+}
+
+.post-card p {
+  font-size: 1rem; /* 16px */
+}
+
+.post-card .price {
+  font-size: 1.125rem; /* 18px */
+  font-weight: bold;
+}
+
+.post-card .buy-button {
+  background-color: #0074de; /* This is a placeholder for the button color */
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem; /* 6px */
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.post-card .buy-button:hover {
+  background-color: #0056b3; /* Darker shade for hover state */
 }
