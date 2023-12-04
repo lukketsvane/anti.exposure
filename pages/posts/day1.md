@@ -1,9 +1,9 @@
 ---
-title: Advent of Design - Day 1: Innovative SAD Light Therapy Visor
-date: 2021-12-01
-description: A deep dive into the design and functionality of a cutting-edge light therapy visor to counteract Seasonal Affective Disorder.
-tag: design, health, technology
-author: Your Name
+title: Advent of Desing - Day 2, SAD visor
+date: 2023/12/1
+description: Showcasing the minimalist and modern approach to condom packaging design.
+tag: product design
+author: You
 ---
 
 # Seasonal Affective Disorder: Understanding the Impact
