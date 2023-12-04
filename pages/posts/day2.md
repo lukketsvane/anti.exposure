@@ -38,13 +38,13 @@ A monochromatic color scheme was chosen to emphasize the product's sleek and sop
 
 ### Day 1 Release
 
-![Sleek Condom Packaging GIF](../../public/dayone/rubberjohnny.gif "Rubber Johnny Packaging Animation")
+![Sleek Condom Packaging GIF](../../public/day2/rubberjohnny.gif "Rubber Johnny Packaging Animation")
 
 The animated representation of the packaging design captures the dynamic and innovative spirit of the product.
 
 ### Static Design
 
-![Sleek Condom Packaging](../../public/dayone/design_1.png "Condom Packaging Design Static")
+![Sleek Condom Packaging](../../public/day2/design_1.png "Condom Packaging Design Static")
 
 The static image showcases the detail and thought put into the physical texture and design elements of the packaging.
 

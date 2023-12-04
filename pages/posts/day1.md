@@ -34,7 +34,8 @@ Emerging research highlights the importance of light positioning in light therap
 
 The concept of integrating a light therapy lamp into a visor offers an innovative solution that caters to the naturalistic approach required for effective SAD treatment. 
 
-![SAD Visor Design](/public/day2/iterations.png)
+
+![SAD Visor Design](../../public/public/day1/iterations.png "SAD Visors")
 
 ---
 
