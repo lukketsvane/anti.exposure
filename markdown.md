@@ -22,21 +22,12 @@ author: You
 
 **This is bold text**
 
-_This is italic text_
 
-~~Strikethrough~~
 
 ## Blockquotes
 
-> Develop. Preview. Ship. – Vercel
 
 ## Lists
-
-Unordered
-
-- Lorem ipsum dolor sit amet
-- Consectetur adipiscing elit
-- Integer molestie lorem at massa
 
 Ordered
 
