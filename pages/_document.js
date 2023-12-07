@@ -4,7 +4,7 @@ export default function Document() {
   const meta = {
     title: 'anti.exposed',
     description: 'anit',
-    image: 'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png'
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Emblem_of_the_Norwegian_Police_Security_Service.svg/1200px-Emblem_of_the_Norwegian_Police_Security_Service.svg.png'
   }
 
   return (
