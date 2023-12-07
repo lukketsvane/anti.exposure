@@ -1,5 +1,5 @@
 ---
-title: Advent of Desing - Day 2, Rubber Johnny
+title: Day 2, Rubber Johnny
 date: 2023/12/2
 description: Showcasing the minimalist and modern approach to condom packaging design.
 tag: product design

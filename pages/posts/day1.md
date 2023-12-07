@@ -1,10 +1,11 @@
 ---
-title: Advent of Desing - Day 1, SAD visor
+title: Day 1, SAD visor
 date: 2023/12/1
 description: .
 tag: product design
 author: You
 ---
+
 
 # Seasonal Affective Disorder: Understanding the Impact
 
