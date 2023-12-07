@@ -1,0 +1,56 @@
+
+  
+  .leave-message-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .leave-message-container h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .leave-message-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; /* Increased gap for better spacing */
+    max-width: 800px;
+    margin: 2rem auto;
+  }
+  
+  .leave-message-form label {
+    font-weight: bold;
+    display: block; /* Makes label take its own line for better alignment */
+    margin-bottom: 0.5rem; /* Spacing between label and input field */
+  }
+  
+  .leave-message-form input,
+  .leave-message-form textarea {
+    width: 100%; /* Set width to 100% for uniform width */
+  
+    padding: 0.25rem; /* Increased padding for better field appearance */
+    border: 1px solid #cccccc3e;
+    border-radius: 2px; /* Slightly rounded corners */
+    font-size: 1rem; /* Increased font size for better readability */
+    line-height: 1.5; /* Improved line height for text area */
+  }
+  
+  .leave-message-form textarea {
+    min-height: 100px; /* Minimum height for textarea */
+  }
+  
+  
+  .leaveMessageForm button {
+    color: rgba(255, 255, 255, 0.8); /* 80% opacity white text */
+    /* Other button styles (background-color, padding, etc.) */
+  }
+  
+  .leaveMessageForm button:hover {
+    color: rgba(255, 255, 255, 1); /* 100% opacity white text on hover */
+    /* You can keep other hover styles if needed, like background-color changes */
+  }
+  

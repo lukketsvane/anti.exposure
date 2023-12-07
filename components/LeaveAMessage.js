@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import styles from '../styles/LeaveAMessageForm.module.css'; // Updated import statement
 
 const LeaveAMessage = () => {
   const [formData, setFormData] = useState({ sender: '', suggestion: '' });
@@ -52,12 +53,11 @@ const LeaveAMessage = () => {
   };
 
   return (
-    <div>
-      <h2>Leave a Message</h2>
+    <div className={styles.leaveMessageContainer}>
       {messageSent ? (
-        <p>Thank you for your message!</p>
+        <p>Thanks!</p>
       ) : (
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className="leave-message-form">
           <div>
             <label htmlFor="sender">From:</label>
             <input
@@ -70,7 +70,6 @@ const LeaveAMessage = () => {
             />
           </div>
           <div>
-            <label htmlFor="suggestion">Suggestion for Design:</label>
             <textarea
               id="suggestion"
               name="suggestion"
@@ -83,7 +82,6 @@ const LeaveAMessage = () => {
         </form>
       )}
 
-      {/* Display the list of messages */}
       <div>
         <h3>Messages:</h3>
         <ul>

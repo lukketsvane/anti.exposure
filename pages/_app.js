@@ -5,7 +5,6 @@ import LeaveAMessage from './../components/LeaveAMessage'; // Import LeaveAMessa
 import 'nextra-theme-blog/style.css';
 import Head from 'next/head';
 import '../styles/main.css';
-import '../styles/LeaveAMessageForm.css';
 
 
 const mdxComponents = {
