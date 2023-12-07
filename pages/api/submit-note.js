@@ -1,19 +1,36 @@
-// pages/api/submit-note.js
+const { Pool } = require('pg');
 
-// In-memory storage (this will reset when the server restarts)
-let messages = [];
+const pool = new Pool({
+  connectionString: process.env.DATABASE_URL,
+  ssl: {
+    rejectUnauthorized: false
+  }
+});
 
-export default function handler(req, res) {
+export default async function handler(req, res) {
   if (req.method === 'POST') {
-    const { from, suggestion } = req.body;
+    const { sender, suggestion } = req.body;
 
-    // Add the new message to the array
-    messages.push({ from, suggestion });
+    if (!sender || !suggestion) {
+      return res.status(400).json({ error: 'Missing fields' });
+    }
 
-    res.status(200).json({ messages });
+    try {
+      await pool.query('INSERT INTO messages (sender, suggestion) VALUES ($1, $2)', [sender, suggestion]);
+      res.status(200).json({ message: 'Message stored successfully' });
+    } catch (err) {
+      console.error(err);
+      res.status(500).json({ error: 'Internal Server Error' });
+    }
+
   } else if (req.method === 'GET') {
-    // Return all messages
-    res.status(200).json({ messages });
+    try {
+      const result = await pool.query('SELECT * FROM messages');
+      res.status(200).json({ messages: result.rows });
+    } catch (err) {
+      console.error(err);
+      res.status(500).json({ error: 'Internal Server Error' });
+    }
   } else {
     res.status(405).end('Method Not Allowed');
   }

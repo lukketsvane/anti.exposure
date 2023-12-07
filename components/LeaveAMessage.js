@@ -1,15 +1,21 @@
 import React, { useState, useEffect } from 'react';
-import Head from 'next/head';
+
 const LeaveAMessage = () => {
-  const [formData, setFormData] = useState({ from: '', suggestion: '' });
+  const [formData, setFormData] = useState({ sender: '', suggestion: '' });
   const [messages, setMessages] = useState([]);
   const [messageSent, setMessageSent] = useState(false);
 
   // Fetch messages when the component mounts and after each successful submission
   const fetchMessages = async () => {
-    const response = await fetch('/api/submit-note');
-    const data = await response.json();
-    setMessages(data.messages);
+    try {
+      const response = await fetch('/api/submit-note');
+      const data = await response.json();
+      if (data && Array.isArray(data.messages)) {
+        setMessages(data.messages);
+      }
+    } catch (error) {
+      console.error('Error fetching messages:', error);
+    }
   };
 
   useEffect(() => {
@@ -30,7 +36,7 @@ const LeaveAMessage = () => {
 
       if (response.ok) {
         setMessageSent(true);
-        setFormData({ from: '', suggestion: '' }); // Reset form
+        setFormData({ sender: '', suggestion: '' }); // Reset form
         fetchMessages(); // Fetch updated messages
       } else {
         setMessageSent(false);
@@ -53,28 +59,19 @@ const LeaveAMessage = () => {
       ) : (
         <form onSubmit={handleSubmit}>
           <div>
-            <label htmlFor="from">From:</label>
-
-          </div>
-          <div>
-          
-          <input
+            <label htmlFor="sender">From:</label>
+            <input
               type="text"
-              id="from"
-              name="from"
-              value={formData.from}
+              id="sender"
+              name="sender"
+              value={formData.sender}
               onChange={handleChange}
               required
             />
           </div>
           <div>
-            <p> </p>
-          </div>
-          <div>
             <label htmlFor="suggestion">Suggestion for Design:</label>
-          </div>
-          <div>
-          <textarea
+            <textarea
               id="suggestion"
               name="suggestion"
               value={formData.suggestion}
@@ -90,9 +87,9 @@ const LeaveAMessage = () => {
       <div>
         <h3>Messages:</h3>
         <ul>
-          {messages.map((message, index) => (
+          {messages && messages.map((message, index) => (
             <li key={index}>
-              <strong>{message.from}:</strong> {message.suggestion}
+              <strong>{message.sender}:</strong> {message.suggestion}
             </li>
           ))}
         </ul>
