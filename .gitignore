@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 
+# OLD POSTS
+pages/posts/day1.md
+pages/posts/day2.md
+
 # testing
 /coverage
 
